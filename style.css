@@ -1,0 +1,29 @@
+
+.topLine {
+    display: flex;
+    flex-direction: row;
+    width: 480px;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.outer {
+	display: flex;
+	flex-direction: column;
+    border: 1px solid black;
+    width: 480px;
+    height: 480px;
+    align-items: stretch;
+}
+
+.row {
+	display: flex;
+	flex-direction: row;
+    align-items: stretch;
+    height: 480px;
+}
+
+.column {
+    border: 1px solid gray;
+    width: 480px;
+}
